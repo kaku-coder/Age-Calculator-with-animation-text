@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=DM+Serif+Text:ital@0;1&family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Playwrite+IS:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C890A7;
+}
+.contenor{
+  width: 450px;
+  /* height: 200px; */
+  background-color: #FBF5E5;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 10px 10px rgba(5,2,2,0.18);
+}
+.contenor h1{
+  font-weight: 900;
+  margin: 10px;
+    font-family: "Afacad Flux", serif;
+    gap: 10px;
+}
+
+.age p{
+  font-family: "DM Serif Text", serif;
+  font-style: italic;
+  margin: 5px;
+}
+.age input{
+  padding: 5px 40px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.button{
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #212121;
+  color: #FBF5E5;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 15px;
+  font-weight: 700;
+}
+button:hover{
+  background-color: green;
+  color: black;
+}
+.result p{
+  font-family: "Roboto Mono", monospace;
+  margin: 10px;
+}
+.agetext {
+  height: 50px; /* Set a fixed height */
+  overflow: hidden; /* Hide any overflow */
+  line-height: 50px; /* Center the text vertically */
+}
